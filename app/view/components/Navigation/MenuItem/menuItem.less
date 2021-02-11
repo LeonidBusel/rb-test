@@ -1,0 +1,56 @@
+@import '~styles/variables.less';
+
+.menu-item-wrapper {
+    font-family: Helvetica;
+    font-style : normal;
+
+    .menu-item-title {
+        display        : flex;
+        justify-content: space-between;
+        font-weight    : bold;
+        font-size      : 16px;
+        line-height    : 22px;
+        padding        : 10px 13px;
+        cursor         : pointer;
+
+        &.open {
+            color: @green;
+        }
+
+        &:hover {
+            background-color: #F2F2F2;
+        }
+    }
+
+    .sub-menu-wrapper {
+        padding: 10px 13px;
+
+
+        .sub-menu-item-wrapper {
+            text-decoration: none;
+            font-weight    : normal;
+            color          : @black;
+
+            &.active {
+                color: @green;
+
+                .sub-menu-item {
+                    background-color: #F2F2F2;
+                }
+            }
+
+            .sub-menu-item {
+                cursor     : pointer;
+                font-size  : 14px;
+                line-height: 22px;
+                padding    : 13px;
+
+                &:hover {
+                    background-color: #F2F2F2;
+                }
+            }
+        }
+
+
+    }
+}

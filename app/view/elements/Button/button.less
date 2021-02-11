@@ -1,0 +1,44 @@
+@import '~styles/variables.less';
+
+.button {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    cursor         : pointer;
+    height         : 44px;
+    border-radius  : 3px;
+    border         : 1px solid @green;
+    background     : #fff;
+
+    .button-title {
+        font-family   : Helvetica;
+        font-size     : 14px;
+        font-weight   : bold;
+        text-transform: uppercase;
+        color         : @green;
+    }
+
+    &:hover {
+        background: rgba(92, 176, 71);
+
+        .button-title {
+            color: #fff;
+        }
+    }
+
+    &.green {
+        background: @green;
+
+        .button-title {
+            color: #fff;
+        }
+
+        &:hover {
+            background: rgba(92, 176, 71);
+
+            .button-title {
+                color: #fff;
+            }
+        }
+    }
+}

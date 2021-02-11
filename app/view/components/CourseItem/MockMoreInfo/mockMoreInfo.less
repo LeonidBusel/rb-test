@@ -1,0 +1,42 @@
+@import '~styles/variables.less';
+
+.more-info-wrapper {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    width          : 222px;
+    height         : 345px;
+    border-radius  : 2px;
+    border-top     : 6px solid @green;
+    background     : @green;
+    box-shadow     : 0px 22px 37px rgba(0, 0, 0, 0.2);
+    color          : #fff;
+    margin-bottom  : 20px;
+    margin-right   : 20px;
+    font-family    : Helvetica;
+    padding        : 30px;
+
+    .title {
+        font-size  : 16px;
+        line-height: 22px;
+    }
+
+    .duration {
+        margin-top : 20px;
+        font-size  : 14px;
+        line-height: 22px;
+    }
+
+    .dates {
+        margin-top : 20px;
+        flex-grow  : 1;
+        font-size  : 14px;
+        line-height: 22px;
+    }
+
+    .price {
+        font-size    : 32px;
+        line-height  : 44px;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,62 @@
+@import '~styles/variables.less';
+
+.navigation-wrapper {
+    width        : 276px;
+    min-width    : 276px;
+    margin-left  : 20px;
+    background   : @white;
+    box-shadow   : 0px 4px 11px rgba(0, 0, 0, 0.06);
+    border-radius: 2px;
+
+    .head {
+        display    : flex;
+        align-items: center;
+        margin     : 35px 19px 19px;
+        height     : 15px;
+
+        .title {
+            font-family   : Helvetica;
+            padding-left  : 13px;
+            font-size     : 13px;
+            text-transform: uppercase;
+            color         : @green;
+            line-height   : 15px;
+        }
+    }
+
+    .menu {
+        margin: 21px 15px 29px;
+    }
+
+    .divider {
+        margin: 0 15px;
+    }
+
+    .button {
+        margin: 19px 15px 29px;
+
+    }
+}
+
+.mobile-navigation-wrapper {
+    margin-bottom: 20px;
+
+    .mobile-head {
+        cursor       : pointer;
+        height       : 52px;
+        display      : flex;
+        align-items  : center;
+        padding      : 0 12px 0 9px;
+        background   : rgb(241, 241, 241);
+        border-radius: 3px;
+
+        .title {
+            margin-left: 11px;
+            flex-grow  : 1;
+        }
+    }
+
+    .mobile-menu {
+        background-color: @white;
+    }
+}

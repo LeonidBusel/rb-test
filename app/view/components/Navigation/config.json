@@ -1,0 +1,114 @@
+{
+    "careers": [
+        {
+            "id": "some_id_1",
+            "title": "Business & Management",
+            "items": [
+                {
+                    "title": "title 1",
+                    "id": "1_some_id_1"
+                },
+                {
+                    "title": "title 2",
+                    "id": "1_some_id_2"
+                }
+            ]
+        },
+        {
+            "id": "some_id_2",
+            "title": "Computing & IT",
+            "items": [
+                {
+                    "title": "title 1",
+                    "id": "2_some_id_1"
+                },
+                {
+                    "title": "title 2",
+                    "id": "2_some_id_2"
+                }
+            ]
+        },
+        {
+            "id": "some_id_3",
+            "title": "Fashion & Media",
+            "items": [
+                {
+                    "title": "title 1",
+                    "id": "3_some_id_1"
+                },
+                {
+                    "title": "title 2",
+                    "id": "3_some_id_2"
+                }
+            ]
+        },
+        {
+            "id": "some_id_4",
+            "title": "Finance & Accounting",
+            "items": [
+                {
+                    "title": "title 1",
+                    "id": "4_some_id_1"
+                },
+                {
+                    "title": "title 2",
+                    "id": "4_some_id_2"
+                }
+            ]
+        },
+        {
+            "id": "some_id_5",
+            "title": "Law & Criminology",
+            "items": [
+                {
+                    "title": "title 1",
+                    "id": "5_some_id_1"
+                },
+                {
+                    "title": "title 2",
+                    "id": "5_some_id_2"
+                }
+            ]
+        },
+        {
+            "id": "some_id_6",
+            "title": "Marketing & Communications",
+            "items": [
+                {
+                    "title": "title 1",
+                    "id": "6_some_id_1"
+                },
+                {
+                    "title": "title 2",
+                    "id": "6_some_id_2"
+                }
+            ]
+        },
+        {
+            "id": "some_id_7",
+            "title": "Psychology & Social Scences",
+            "items": [
+                {
+                    "title": "Market Research Executive",
+                    "id": "7_some_id_1"
+                },
+                {
+                    "title": "Child Psychologist",
+                    "id": "7_some_id_2"
+                },
+                {
+                    "title": "Guidance Counsellor",
+                    "id": "7_some_id_3"
+                },
+                {
+                    "title": "Behaviour Analyst",
+                    "id": "7_some_id_4"
+                },
+                {
+                    "title": "Recreational Therapist",
+                    "id": "7_some_id_5"
+                }
+            ]
+        }
+    ]
+}

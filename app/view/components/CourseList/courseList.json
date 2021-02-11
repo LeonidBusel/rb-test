@@ -1,0 +1,36 @@
+{
+    "7_some_id_1": [
+        {"id": "1_2", "logo": "danisco", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"},
+        {"id": "1_1", "logo": "embratur", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"}, 
+        {"id": "1_3", "logo": "bullef", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"},
+        {"id": "1_4", "logo": "barco", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "January, April, July, October, November"}
+    ],
+    "7_some_id_2": [
+        {"id": "2_1", "logo": "embratur", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"}, 
+        {"id": "2_2", "logo": "danisco", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"},
+        {"id": "2_3", "logo": "bullef", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"}
+    ],
+    "7_some_id_3": [       
+        {"id": "3_3", "logo": "bullef", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"}, 
+        {"id": "3_1", "logo": "embratur", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"}, 
+        {"id": "3_2", "logo": "danisco", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"},
+        {"id": "3_4", "logo": "danisco", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"},
+        {"id": "3_5", "logo": "bullef", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"},
+        {"id": "3_6", "logo": "barco", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "January, April, July, October, November"}
+    ],
+    "7_some_id_4": [
+        {"id": "4_1", "logo": "embratur", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"}, 
+        {"id": "4_2", "logo": "danisco", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"},
+        {"id": "4_3", "logo": "bullef", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"},
+        {"id": "4_4", "logo": "bullef", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"},
+        {"id": "4_5", "logo": "barco", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "January, April, July, October, November"}
+    ],
+    "7_some_id_5": [
+        {"id": "5_4", "logo": "danisco", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"},
+        {"id": "1_1", "logo": "embratur", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"}, 
+        {"id": "5_2", "logo": "danisco", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"},
+        {"id": "5_3", "logo": "bullef", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"},        
+        {"id": "5_5", "logo": "embratur", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"}, 
+        {"id": "5_6", "logo": "bullef", "type": "business & management", "title": "Master of Business Administration (CMI)", "period": "Every 12 weeks"}
+    ]
+}
