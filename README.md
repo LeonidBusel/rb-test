@@ -1,6 +1,6 @@
-## Запуск
+## Bootstrap
 
-Клонировать репозиторий
+Clone repo
 
 ``` 
 
@@ -12,6 +12,6 @@ npm install
 npm run leave
 ```
 
-## Описание
+## Description
 
 React App with custom webpack4
