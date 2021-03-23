@@ -1,17 +1,21 @@
-import React, { useState } from 'react';
+import React, { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 
 import { Arrow } from "elements";
 import "./menuItem.less";
 
 const MenuItem = ({ title, menuId, isOpenMenu, items = [], courseId, onClickMenu }) => {
-    const subMenu = items.map(item => {
-        const { id, title } = item;
+    let subMenu;
 
-        return <Link className={`sub-menu-item-wrapper${courseId === id ? " active" : ""}`} to={`/course/${id}`} key={id}>
-            <div className="sub-menu-item">{title}</div>
-        </Link>;
-    });
+    subMenu = useMemo(() => {
+        return items.map(item => {
+            const { id, title } = item;
+
+            return <Link className={`sub-menu-item-wrapper${courseId === id ? " active" : ""}`} to={`/course/${id}`} key={id}>
+                <div className="sub-menu-item">{title}</div>
+            </Link>;
+        });
+    }, [items, courseId])
 
     return <div className="menu-item-wrapper" key={menuId}>
         <div className={`menu-item-title${isOpenMenu ? " open" : ""}`} onClick={() => { onClickMenu(menuId) }}>

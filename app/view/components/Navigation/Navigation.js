@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { useParams } from "react-router-dom";
 import { useMediaQuery } from 'react-responsive';
 
@@ -47,12 +47,16 @@ const Navigation = () => {
         setOpenMobileMenu(!openMobileMenu);
     }
 
-    const menuList = config.careers.map(menu => {
-        const { id, title, items } = menu;
-        const isOpenMenu = openMenuIds.indexOf(id) > -1;
+    let menuList;
 
-        return <MenuItem key={id} isOpenMenu={isOpenMenu} isFirstOpen={openMenuIds === null} menuId={id} title={title} items={items} courseId={courseId} onClickMenu={onClickMenu} />;
-    });
+    menuList = useMemo(() => {
+        return config.careers.map(menu => {
+            const { id, title, items } = menu;
+            const isOpenMenu = openMenuIds.indexOf(id) > -1;
+
+            return <MenuItem key={id} isOpenMenu={isOpenMenu} isFirstOpen={openMenuIds === null} menuId={id} title={title} items={items} courseId={courseId} onClickMenu={onClickMenu} />;
+        });
+    }, [config.careers, openMenuIds, courseId]);
 
     if (isMobile) { // для быстроты, в реальном проекте и в случае если предполагается, что поведение будет различаться - делаем компоненты desktop-navigation, mobile-navigation
         return <div className="mobile-navigation-wrapper">
